@@ -12,11 +12,11 @@ Certifique-se de ter um compilador C instalado em seu sistema. Este programa foi
 2. Abra um terminal ou prompt de comando e navegue até o diretório onde o repositório foi clonado.
 3. Compile o código usando o compilador C. Por exemplo:
    ```
-   gcc main.c -o determinant
+   gcc main.c -o calculator-det-matrix.c
    ```
 4. Execute o programa recém-compilado. Por exemplo:
    ```
-   ./determinant
+   ./calculator-det-matrix.c
    ```
 5. Siga as instruções do programa para inserir a ordem da matriz e os elementos da matriz.
 6. O programa calculará e exibirá o determinante da matriz em seguida.
