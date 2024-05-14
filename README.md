@@ -2,6 +2,9 @@
 
 Este é um programa simples em C que calcula o determinante de uma matriz quadrada, com no máximo ordem 10. Ela foi desenvolvida para praticar e melhorar a habilidade de lógica de programação em C.
 
+## Métodos
+Para matrizes de ordem 1x1 e 2x2 foi utilizado o método de multiplicação da diagonal principal diminuindo da multiplicação da diagonal secundária. E para matrizes maiores de ordem 2x2 foi utilizado o método de Laplace.
+
 ## Pré-requisitos
 
 Certifique-se de ter um compilador C instalado em seu sistema. Este programa foi testado com o compilador GCC.
