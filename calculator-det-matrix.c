@@ -1,14 +1,14 @@
 #include <stdio.h> 
 #include <stdlib.h>
 
-// Função básica para calcular o det de uma matrix
+// Implementar função básica para calcular o det de uma matrix
 
 int determinant(int matrix [][10], int n) 
 {
 
     int i, j, k, sinal, det = 0;
 
-    // Matrizes 1x1 e 2x2
+    // Calcular matrizes 1x1 e 2x2
     if (n == 1)
         return matrix[0][0];
     if (n == 2)
@@ -31,10 +31,8 @@ int determinant(int matrix [][10], int n)
                     submatrix[i-1][j-1] = matrix[i][j];
             }
         }
-
     
-    
-    // Determinar a mudança de sinal para o termo corrente da expansão
+    // Determinar a mudança de sinal para o termo corrente da expansão de laplace
     sinal = ((k % 2 ) == 0) ? : -1;
 
     // Calcula o determinante da submatriz
