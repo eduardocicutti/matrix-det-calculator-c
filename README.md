@@ -1,31 +1,31 @@
-# Calculadora de Determinante de Matriz em C
+# Calculadora de Determinante de Matriz na linguagem C
 
-Este é um programa simples em C que calcula o determinante de uma matriz quadrada, com no máximo ordem 10. Ela foi desenvolvida para praticar e melhorar a habilidade de lógica de programação em C.
+Este é um programa simples em C para calcular o determinante de uma matriz. Apenas para amostragem de aprendizado envolvendo questões matemáticas e programação.
 
-## Métodos
-Para matrizes de ordem 1x1 e 2x2 foi utilizado o método de multiplicação da diagonal principal diminuindo da multiplicação da diagonal secundária. E para matrizes maiores de ordem 2x2 foi utilizado o método de Laplace.
+## Funcionalidades
+
+- Calcula o determinante de uma matriz de qualquer ordem, com limite de até 10x10.
+- Lida com entrada do usuário para a ordem da matriz e os elementos da matriz.
+
+## Como Usar
+
+1. Compile o programa usando um compilador C, como o GCC (recomendável, não foi testado em outros).
+2. Execute o programa e siga as instruções para inserir a ordem da matriz e os elementos da matriz.
 
 ## Pré-requisitos
 
-Certifique-se de ter um compilador C instalado em seu sistema. Este programa foi testado com o compilador GCC.
+- Compilador C (por exemplo, GCC)
+- Ambiente de desenvolvimento C (por exemplo, VSCode, Replit, CodeBlocks)
 
-## Como usar
-
-1. Clone este repositório para o seu computador.
-2. Abra um terminal ou prompt de comando e navegue até o diretório onde o repositório foi clonado.
-3. Compile o código usando o compilador C. Por exemplo:
-   ```
-   gcc main.c -o calculator-det-matrix.c
-   ```
-4. Execute o programa recém-compilado. Por exemplo:
-   ```
-   ./calculator-det-matrix.c
-   ```
-5. Siga as instruções do programa para inserir a ordem da matriz e os elementos da matriz.
-6. O programa calculará e exibirá o determinante da matriz em seguida.
-
-## Contribuição
+## Como Contribuir
 
 Contribuições são extremamente bem-vindas! Se você encontrar qualquer problema ou tiver sugestões de melhorias, por favor, abra uma nova issue ou envie um pull request, serei muito grato!
 
+- Sinta-se à vontade para contribuir com melhorias ou correções de bugs.
+- Abra uma issue para discutir ideias de novas funcionalidades ou problemas encontrados.
+- Faça um fork do repositório, faça suas alterações e envie um pull request.
+
+## Autor
+
+- [Eduardo Cicutti](https://github.com/eduardocicutti) 
 
